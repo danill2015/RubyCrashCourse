@@ -1,5 +1,5 @@
 require 'date'
-#Hello world! Маслов Данило
+#Hello world! Данило Маслов
 class Student
   attr_reader :surname, :name, :date_of_birth
   @@students = []  
@@ -79,6 +79,7 @@ Student.students.each { |student| puts student }
 #*salt 
 #Instructions 
 #An ill-consider change
+
 
 
 
