@@ -1,5 +1,5 @@
 require 'date'
-
+#Hello world
 class Student
   attr_reader :surname, :name, :date_of_birth
   @@students = []  
@@ -71,3 +71,4 @@ end
 
 puts "\nList of unique students:"
 Student.students.each { |student| puts student }
+
