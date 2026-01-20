@@ -1,5 +1,5 @@
 require 'date'
-#Hello world
+#Hello 
 class Student
   attr_reader :surname, :name, :date_of_birth
   @@students = []  
@@ -79,4 +79,5 @@ Student.students.each { |student| puts student }
 #*salt 
 #Instructions 
 #An ill-consider change
+
 
