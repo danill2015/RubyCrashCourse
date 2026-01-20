@@ -72,3 +72,11 @@ end
 puts "\nList of unique students:"
 Student.students.each { |student| puts student }
 
+#Guacamole
+#Ingredients 
+#*avocado
+#*lime
+#*salt 
+#Instructions 
+#An ill-consider change
+
