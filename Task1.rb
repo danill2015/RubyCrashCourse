@@ -1,5 +1,6 @@
 require 'date'
-#Hello world! Данило Маслов
+#Hello world! Viktoriia Lykova
+# TODO: consider edge cases for date validation
 class Student
   attr_reader :surname, :name, :date_of_birth
   @@students = []  
@@ -59,10 +60,10 @@ class Student
 end
 
 students_data = [
-  { surname: "Maslov", name: "Danylo", date_of_birth: Date.new(2005, 9, 24) },
-  { surname: "Ivanov", name: "Timur", date_of_birth: Date.new(2004, 5, 15) },
-  { surname: "Krasin", name: "Misha", date_of_birth: Date.new(2004, 3, 2) },
-  { surname: "Kulikov", name: "Vladimir", date_of_birth: Date.new(2005, 1, 3) }
+  { surname: "Lykova", name: "Viktoriia", date_of_birth: Date.new(2005, 4, 26) },
+  { surname: "Bashyrov", name: "Emin", date_of_birth: Date.new(2004, 8, 21) },
+  { surname: "Harmata", name: "Olena", date_of_birth: Date.new(2005, 5, 7) },
+  { surname: "Mikautadze", name: "Dasha", date_of_birth: Date.new(2005, 11, 15) }
 ]
 
 students_data.each do |student_data|
@@ -79,6 +80,7 @@ Student.students.each { |student| puts student }
 #*salt 
 #Instructions 
 #An ill-consider change
+
 
 
 
